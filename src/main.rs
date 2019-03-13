@@ -12,7 +12,5 @@ fn main() {
 }
 
 fn speed(length: Length, time: Time) -> Velocity {
-    // Explicit type on return value here as the inferred type differs from Velocity
-    let v: Velocity = length / time;
-    v
+    length / time
 }
