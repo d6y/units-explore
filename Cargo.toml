@@ -1,0 +1,8 @@
+[package]
+name = "units-explore"
+version = "0.1.0"
+authors = ["Richard Dallaway <richard@dallaway.com>"]
+edition = "2018"
+
+[dependencies]
+uom = "0.21.1"
